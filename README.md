@@ -6,7 +6,7 @@
 
 - [ ] Adding some exploits and updating ESP and bone matrix.
 
-- [ ] Adding ImGui interface
+- [ ] Adding ImGui Drawing
 
 - [ ] Adding SDK
 
