@@ -1,8 +1,8 @@
 # ExternalBase
 
-- [ ] Adding ESP and simple memory aimbot for pawn predictions and player movment predictions.
+- [x] Adding ESP and simple memory aimbot for pawn predictions and player movment predictions.
 
-- [ ] Adding driver with BE IAT abusing.
+- [x] Adding driver with BE IAT abusing.
 
 - [ ] Adding some exploits and updating ESP and bone matrix.
 
