@@ -6,6 +6,12 @@
 
 - [ ] Adding some exploits and updating ESP and bone matrix.
 
+- [ ] Adding ImGui interface
+
+- [ ] Adding SDK
+
+- [ ] Adding Unreal Engine Classes For Better Use Of Functions
+
 I ALSO BUILT THIS IN JETBRAINS C LION SO IF ANY ISSUES PRELUDE PLEASE LMK BY MAKING A ISSUE.
 
 **FEEL FREE TO CONTRIBUTE TO THE SOURCE BY MAKING PULL REQUESTS FOR NEW AND OR IMPROVED CODE!**
