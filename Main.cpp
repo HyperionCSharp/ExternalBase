@@ -3,6 +3,9 @@
 #define M_PI 180.0 / 3.14159265358979323846//3.14159265358979323846264338327950288419716939937510
 #define OFFSET_UWORLD 0x065a4af0
 
+DWORD emulateEAC;
+DWORD emulateBEClient;
+
 DWORD processID;
 HWND hwnd = NULL;
 
@@ -12,6 +15,7 @@ int localplayerID;
 
 UINT_PTR connection;
 uint64_t base_address;
+UNT_PTR connectionAddress;
 
 DWORD_PTR Uworld;
 DWORD_PTR Pawn;
@@ -19,6 +23,7 @@ DWORD_PTR Localplayer;
 DWORD_PTR Rootcomp;
 DWORD_PTR PlayerController;
 DWORD_PTR Ulevel;
+DWORD_PTR UWorldTime;
 
 
 struct FQuat
@@ -29,6 +34,7 @@ struct FQuat
     float w;
 };
 
+// FMatrix: Transform rotation to yaw pitch roll
 struct FTransform
 {
     FQuat rot;
@@ -78,6 +84,7 @@ struct FTransform
     }
 };
 
+// Player Multiplication using D3DMATRIX
 D3DMATRIX MatrixMultiplication(D3DMATRIX pM1, D3DMATRIX pM2)
 {
     D3DMATRIX pOut;
